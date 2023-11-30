@@ -1,5 +1,10 @@
 # Using kcadm for Creating Various Resources in Keycloak
 
+## Login to Keycloak
+```shell
+$ kcadm config credentials --server http://localhost:8080/auth --realm master --user admin --password password
+```
+
 ## Create Groups
 groups.json
 ```json
